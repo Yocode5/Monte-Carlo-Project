@@ -34,12 +34,7 @@ The simulation randomly generates points within a square and determines whether 
 
 1. Random points are generated inside a square.
 2. Each point is checked to determine whether it lies inside a quarter circle.
-3. The ratio of points inside the circle is used to estimate π:
-
-\[
-\pi \approx 4 \times \frac{\text{points inside circle}}{\text{total points}}
-\]
-
+3. The ratio of points inside the circle is used to estimate π
 ## Example Use
 
 ```bash
